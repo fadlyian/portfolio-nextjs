@@ -2,6 +2,7 @@
 import autoprefixer from "autoprefixer";
 import Image from "next/image";
 import About from "./about/page";
+import Project from "./project/page";
 
 export default function Home() {
   return (
@@ -69,42 +70,42 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-center items-stretch p-10 m-10 ">
             <h1 className="text-2xl font-semibold self-center">Tech Stack |</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 m-3">
-              <div className="rounded-full flex justify-center bg-red-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-100 p-4">
                 <div className="relative h-16 w-16">
                   <img src="/icon/html.png" alt="laravel" className="object-cover w-full h-auto" />
                 </div>
               </div>
-              <div className="rounded-full flex justify-center bg-red-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-100 p-4">
                 <div className="relative h-16 w-16">
                   <img src="/icon/css.svg" alt="laravel" className="" />
                 </div>
               </div>
-              <div className="rounded-full flex justify-center bg-red-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-100 p-4">
                 <div className="relative h-16 w-16">
                   <img src="/icon/js.svg" alt="laravel" className="" />
                 </div>
               </div>
-              <div className="rounded-full flex justify-center bg-red-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-100 p-4">
                 <div className="relative h-16 w-16 flex justify-center">
                   <img src="/icon/php.svg" alt="laravel" className="" />
                 </div>
               </div>
-              <div className="rounded-full flex justify-center bg-red-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-100 p-4">
                 <div className="relative h-16 w-16 flex justify-center">
                   <img src="/icon/tailwind.svg" alt="laravel" className="" />
                 </div>
               </div>
-              <div className="rounded-full flex justify-center bg-red-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-100 p-4">
                 <div className="relative h-16 w-16">
                   <img src="/icon/react.svg" alt="laravel" className="" />
                 </div>
               </div>
-              <div className="rounded-full flex justify-center bg-red-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-100 p-4">
                 <div className="relative h-16 w-16">
                   <img src="/icon/next.svg" alt="laravel" className="" />
                 </div>
               </div>
-              <div className="rounded-full flex justify-center bg-red-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-100 p-4">
                 <div className="relative h-16 w-16">
                   <img src="/icon/laravel.svg" alt="laravel" className="" />
                 </div>
@@ -115,6 +116,10 @@ export default function Home() {
       </section>
 
       <About/>
+
+      <Project/>
+
+
     </>
   );
 }

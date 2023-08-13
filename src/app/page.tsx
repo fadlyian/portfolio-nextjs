@@ -1,11 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import autoprefixer from "autoprefixer";
 import Image from "next/image";
+import About from "./about/page";
 
 export default function Home() {
   return (
     <>
-      <section className="flex justify-center items-center min-h-screen bg-base-200">
+      <section className="flex justify-center items-center min-h-screen">
         <div className="container mx-auto p-4">
           <div className="flex justify-center flex-col-reverse lg:flex-row-reverse">
             <div className="m-3 lg:ml-8 flex justify-center flex-col">
@@ -65,7 +66,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="flex flex-col md:flex-row justify-center items-stretch mt-6 ">
+          <div className="flex flex-col md:flex-row justify-center items-stretch p-10 m-10 ">
             <h1 className="text-2xl font-semibold self-center">Tech Stack |</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 m-3">
               <div className="rounded-full flex justify-center bg-red-100 p-4">
@@ -113,7 +114,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section></section>
+      <About/>
     </>
   );
 }

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <section className="flex justify-center min-h-1/2 bg-gray-900 p-10">
-      <div className="rounded-xl flex justify-center justify-items-stretch shadow-xl m-10 p-5 gap-5">
+      <div className="rounded-xl flex justify-center shadow m-10 p-5 gap-5">
         <div className="">
           <Image src="/images/lib.jpg" width={500} height={500} alt="Movie" className="rounded-xl"/>
         </div>
@@ -14,14 +14,7 @@ export default function About() {
             Indonesia📍
           </h2>
           <p className="text-lg">
-            As a Junior Front-End Developer, I possess an impressive arsenal of
-            skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel
-            in designing and maintaining responsive websites that offer a smooth
-            user experience. My expertise lies in crafting dynamic, engaging
-            interfaces through writing clean and optimized code and utilizing
-            cutting-edge development tools and techniques. I am also a team
-            player who thrives in collaborating with cross-functional teams to
-            produce outstanding web applications..
+          A passionate web developer with a keen eye for crafting engaging online experiences. Based in Semarang, I specialize in creating dynamic and user-friendly websites that seamlessly merge aesthetics with functionality. Proficient in HTML, CSS, JavaScript, and PHP, I am dedicated to implementing modern web technologies to build responsive and interactive web solutions. With a focus on clean and efficient code, I bring designs to life while ensuring a smooth browsing experience across devices. Collaboration is at the heart of my approach, as I enjoy working with diverse teams to deliver exceptional web applications that leave a lasting impact.
           </p>
         </div>
       </div>

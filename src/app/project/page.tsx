@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function Project() {
   return (
     <section className="flex justify-center items-center min-h-screen">
-      <div className="flex flex-col gap-5">
-        <h1 className="text-3xl font-bold text-white-600">Projects</h1>
-        <p></p>
+      <div className="flex flex-col gap-5 p-5">
+        <h1 className="text-3xl font-bold text-blue-600">Projects</h1>
+        <p className="text-xl font-medium italic text-slate-600">Own or Collaborative Project</p>
         <div className="flex justify-center flex-col lg:flex-row bg-gray-900 rounded-xl p-4">
           <div className="m-3 flex">
             <Image
@@ -17,8 +17,8 @@ export default function Project() {
             />
           </div>
           <div className="m-3 lg:ml-8 flex justify-center flex-col">
-            <h1 className="text-5xl font-bold">Migle Food </h1>
-            <p className="py-6 text-white-400/25">
+            <h1 className="text-5xl text-white font-bold">Migle Food </h1>
+            <p className="py-6 text-white">
               MigleFood is an innovative Food and Beverage (FnB) <br />
               system that aims to streamline and expedite the food <br />
               ordering process for customers through a user-friendly
@@ -31,11 +31,11 @@ export default function Project() {
               <a
                 href="https://miglefood.my.id/"
                 target="_blank"
-                className="flex flex-row gap-4 bg-blue-400 rounded-full p-3"
+                className="flex flex-row text-white gap-4 bg-blue-400 rounded-full p-3"
               >
                 Link
                 <svg
-                  className="w-6 h-6 text-gray-800 dark:text-white"
+                  className="w-6 h-6 text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -54,11 +54,11 @@ export default function Project() {
               <a
                 href="https://github.com/fadlyian/miglefood"
                 target="_blank"
-                className="flex flex-row gap-4 bg-black rounded-full p-3"
+                className="flex flex-row text-white gap-4 bg-black rounded-full p-3"
               >
                 <p>Code </p>
                 <svg
-                  className="w-6 h-6 text-gray-800 dark:text-white"
+                  className="w-6 h-6 text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"

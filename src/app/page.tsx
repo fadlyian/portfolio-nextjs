@@ -18,13 +18,13 @@ export default function Home() {
               </p>
               {/* <button className="btn btn-primary">Get Started</button> */}
 
-              <div className="flex flex-row px-5 space-x-4 ">
+              <div className="flex flex-row px-2 space-x-4 ">
                 <a
                   href="https://www.linkedin.com/in/fadly-ian-396a43235/"
                   target="_blank"
                 >
                   <svg
-                    className="w-6 h-6 text-gray-800 dark:text-white"
+                    className="w-6 h-6 text-gray-800"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -41,7 +41,7 @@ export default function Home() {
 
                 <a href="https://github.com/fadlyian" target="_blank">
                   <svg
-                    className="w-6 h-6 text-gray-800 dark:text-white"
+                    className="w-6 h-6 text-gray-800"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -70,42 +70,42 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-center items-stretch p-10 m-10 ">
             <h1 className="text-2xl font-semibold self-center">Tech Stack |</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 m-3">
-              <div className="rounded-full flex justify-center bg-gray-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-400 p-4">
                 <div className="relative h-16 w-16">
                   <img src="/icon/html.png" alt="laravel" className="object-cover w-full h-auto" />
                 </div>
               </div>
-              <div className="rounded-full flex justify-center bg-gray-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-400 p-4">
                 <div className="relative h-16 w-16">
                   <img src="/icon/css.svg" alt="laravel" className="" />
                 </div>
               </div>
-              <div className="rounded-full flex justify-center bg-gray-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-400 p-4">
                 <div className="relative h-16 w-16">
                   <img src="/icon/js.svg" alt="laravel" className="" />
                 </div>
               </div>
-              <div className="rounded-full flex justify-center bg-gray-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-400 p-4">
                 <div className="relative h-16 w-16 flex justify-center">
                   <img src="/icon/php.svg" alt="laravel" className="" />
                 </div>
               </div>
-              <div className="rounded-full flex justify-center bg-gray-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-400 p-4">
                 <div className="relative h-16 w-16 flex justify-center">
                   <img src="/icon/tailwind.svg" alt="laravel" className="" />
                 </div>
               </div>
-              <div className="rounded-full flex justify-center bg-gray-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-400 p-4">
                 <div className="relative h-16 w-16">
                   <img src="/icon/react.svg" alt="laravel" className="" />
                 </div>
               </div>
-              <div className="rounded-full flex justify-center bg-gray-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-400 p-4">
                 <div className="relative h-16 w-16">
                   <img src="/icon/next.svg" alt="laravel" className="" />
                 </div>
               </div>
-              <div className="rounded-full flex justify-center bg-gray-100 p-4">
+              <div className="rounded-full flex justify-center bg-gray-400 p-4">
                 <div className="relative h-16 w-16">
                   <img src="/icon/laravel.svg" alt="laravel" className="" />
                 </div>

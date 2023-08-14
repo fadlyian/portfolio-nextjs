@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="flex justify-center min-h-1/2 bg-gray-900 p-10">
-      <div className="rounded-xl flex flex-col md:flex-row justify-center shadow m-10 p-5 gap-5 ">
-        <div className="">
-          <Image src="/images/lib.jpg" width={500} height={500} alt="Movie" className="rounded-xl"/>
+    <section className="flex justify-center w-full">
+      <div className="rounded-xl place-items-center flex flex-col md:flex-row justify-center p-15 gap-5 ">
+        <div className="px-5">
+          <Image src="/images/lib.jpg" width={500} height={500} alt="Movie" className="rounded-full"/>
         </div>
         <div className="w-5/6 flex flex-col justify-center gap-4 ">
           <h1 className="text-3xl font-bold text-blue-600">About Me</h1>

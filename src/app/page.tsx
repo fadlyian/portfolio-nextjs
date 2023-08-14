@@ -3,6 +3,7 @@ import autoprefixer from "autoprefixer";
 import Image from "next/image";
 import About from "./about/page";
 import Project from "./project/page";
+import Contact from "./contact/page";
 
 export default function Home() {
   return (
@@ -119,6 +120,7 @@ export default function Home() {
 
       <Project/>
 
+      <Contact />
 
     </>
   );

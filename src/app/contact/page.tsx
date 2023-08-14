@@ -4,7 +4,7 @@ export default function Contact() {
     <section className="min-h-1/2 p-5">
       <div className="justify-center">
         <h1 className="text-3xl font-bold text-blue-600">Contact</h1>
-        <h2 className="text-3xl font-bold ">Don't be shy! Hit me up! 👇</h2>
+        <h2 className="text-3xl font-bold ">Do not be shy! Hit me up! 👇</h2>
       </div>
       <div className="flex flex-col md:flex-row gap-4 py-10">
         <div className="rounded-full flex justify-start bg-gray-200 p-4 gap-5">

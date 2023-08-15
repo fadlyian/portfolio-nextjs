@@ -19,11 +19,7 @@ export default function Project() {
           <div className="m-3 lg:ml-8 flex justify-center flex-col">
             <h1 className="text-5xl text-white font-bold">Migle Food </h1>
             <p className="py-6 text-white">
-              MigleFood is an innovative Food and Beverage (FnB) <br />
-              system that aims to streamline and expedite the food <br />
-              ordering process for customers through a user-friendly
-              <br />
-              website
+              MigleFood is an innovative Food and Beverage (FnB) system that aims to streamline and expedite the food ordering process for customers through a user-friendly website
             </p>
             {/* <button className="btn btn-primary">Get Started</button> */}
 

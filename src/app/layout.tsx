@@ -14,9 +14,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 const navigation = [
   { name: "Home", href: "#", current: false },
-  { name: "About", href: "#", current: false },
-  { name: "Project", href: "#", current: false },
-  { name: "Contact", href: "#", current: false },
+  { name: "About", href: "#about", current: false },
+  { name: "Project", href: "#project", current: false },
+  { name: "Contact", href: "#contact", current: false },
 ];
 
 const userNavigation = [

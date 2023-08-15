@@ -8,7 +8,10 @@ import Contact from "./contact/page";
 export default function Home() {
   return (
     <>
-      <section className="flex justify-center items-center min-h-screen">
+      <section
+        className="flex justify-center items-center min-h-screen"
+        id="home"
+      >
         <div className="container mx-auto p-4">
           <div className="flex justify-center flex-col-reverse lg:flex-row-reverse">
             <div className="m-3 lg:ml-8 flex justify-center flex-col">
@@ -73,7 +76,11 @@ export default function Home() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 m-3">
               <div className="rounded-full flex justify-center bg-gray-400 p-4">
                 <div className="relative h-16 w-16">
-                  <img src="/icon/html.png" alt="laravel" className="object-cover w-full h-auto" />
+                  <img
+                    src="/icon/html.png"
+                    alt="laravel"
+                    className="object-cover w-full h-auto"
+                  />
                 </div>
               </div>
               <div className="rounded-full flex justify-center bg-gray-400 p-4">
@@ -116,12 +123,15 @@ export default function Home() {
         </div>
       </section>
 
-      <About/>
-
-      <Project/>
-
-      <Contact />
-
+      <div id="about">
+        <About />
+      </div>
+      <div id="project">
+        <Project />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </>
   );
 }

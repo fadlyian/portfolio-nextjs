@@ -6,6 +6,17 @@ import Project from "./project/page";
 import Contact from "./contact/page";
 
 export default function Home() {
+  const logo = [
+    { id: 1, name: "html", src: "html.png" },
+    { id: 2, name: "css", src: "css.svg" },
+    { id: 3, name: "js", src: "js.svg" },
+    { id: 4, name: "php", src: "php.svg" },
+    { id: 5, name: "tailwind", src: "tailwind.svg" },
+    { id: 6, name: "react", src: "react.svg" },
+    { id: 7, name: "next", src: "next.svg" },
+    { id: 8, name: "laravel", src: "laravel.svg" },
+  ];
+
   return (
     <>
       <section
@@ -74,16 +85,19 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-center items-stretch p-10 m-10 ">
             <h1 className="text-2xl font-semibold self-center">Tech Stack |</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 m-3">
-              <div className="rounded-full flex justify-center bg-gray-400 p-4">
-                <div className="relative h-16 w-16">
-                  <img
-                    src="/icon/html.png"
-                    alt="laravel"
-                    className="object-cover w-full h-auto"
-                  />
-                </div>
-              </div>
-              <div className="rounded-full flex justify-center bg-gray-400 p-4">
+              {logo.map((data) => {
+                return (
+                  <>
+                  <div className="rounded-full flex justify-center bg-gray-400 p-4" key={data.id}>
+                    <div className="relative h-16 w-16  flex justify-center">
+                      <img src={`/icon/${data.src}`} alt={data.name} />
+                    </div>
+                  </div>
+                  </>
+                );
+              })}
+
+              {/* <div className="rounded-full flex justify-center bg-gray-400 p-4">
                 <div className="relative h-16 w-16">
                   <img src="/icon/css.svg" alt="laravel" className="" />
                 </div>
@@ -117,7 +131,7 @@ export default function Home() {
                 <div className="relative h-16 w-16">
                   <img src="/icon/laravel.svg" alt="laravel" className="" />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

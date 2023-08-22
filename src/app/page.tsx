@@ -7,7 +7,7 @@ import Contact from "./contact/page";
 
 export default function Home() {
   const logo = [
-    { id: 1, name: "html", src: "html.png" },
+    { id: 1, name: "html", src: "html.svg" },
     { id: 2, name: "css", src: "css.svg" },
     { id: 3, name: "js", src: "js.svg" },
     { id: 4, name: "php", src: "php.svg" },
@@ -88,11 +88,19 @@ export default function Home() {
               {logo.map((data) => {
                 return (
                   <>
-                  <div className="rounded-full flex justify-center bg-gray-400 p-4" key={data.id}>
-                    <div className="relative h-16 w-16  flex justify-center">
-                      <img src={`/icon/${data.src}`} alt={data.name} />
+                    <div
+                      className="rounded-full flex justify-center bg-gray-400 p-4"
+                      key={data.id}
+                    >
+                      <div className="relative h-16 w-16  flex justify-center">
+                        <Image
+                          src={`/icon/${data.src}`}
+                          alt={data.name}
+                          width={300}
+                          height={300}
+                        />
+                      </div>
                     </div>
-                  </div>
                   </>
                 );
               })}

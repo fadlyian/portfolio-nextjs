@@ -18,7 +18,7 @@ export default function Project() {
       description:
         "This is a project of one of the bootcamps that carries the theme of digital product e-commerce, which is an open source concept that has not yet been fully developed due to being chased by deadlines. team inspired by the gumroad.com app",
       link: "https://diger.my.id/",
-      gitHub: "https://github.com/fadlyian/miglefood",
+      gitHub: "https://github.com/fadlyian/diger",
     },
   ];
 
@@ -96,7 +96,7 @@ export default function Project() {
         {project.map((data) => {
           return (
             <>
-              <div className="flex justify-center flex-col lg:flex-row bg-gray-900 rounded-xl p-4">
+              <div className="flex justify-center flex-col lg:flex-row bg-gray-900 rounded-xl p-4" key={data.id}>
                 <div className="m-3 flex">
                   <Image
                     src={`/images/${data.image}`}
